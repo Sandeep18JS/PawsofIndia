@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Stolzl-Bold';
+    src: url('./assets/font/Stolzl-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Stolzl-Medium';
+    src: url('./assets/font/Stolzl-Medium.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Stolzl-Regular';
+    src: url('./assets/font/Stolzl-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Stolzl-Book';
+    src: url('./assets/font/Stolzl-Book.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Stolzl-Light';
+    src: url('./assets/font/Stolzl-Light.woff') format('woff');
+}
+
+.the-gradient {
+    background-image: linear-gradient(266deg, rgba(37, 38, 52, 1) 4%, rgba(46, 47, 60, 1) 23%, rgba(46, 47, 60, 1) 41%);
+}
